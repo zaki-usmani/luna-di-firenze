@@ -1,26 +1,56 @@
 body{
     text-align: center;
-    font-family: sans-serif, Arial;
+    font-family: sans-serif;
+    color: #222;
     background-image: url("images/florenceskyline.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
 }
 
 .menu{
-    background-color: rgba(255, 255, 255,0.8);
-    width: 80%;
-    margin-right:auto;
-    margin-left:auto;
-    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.88);
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.65);
 }
 
+.menu h1,
+.menu h2,
+.menu p {
+    margin: 0 0 20px;
+}
+
+
 .copyright {
-    font-size: 0.9em;
-    color: black;
-    width: 20%;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255,0.8);
+    font-size: 0.95em;
+    color: #222;
+    max-width: 300px;
+    margin: 20px auto 0;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #2a3d66;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
 }
