@@ -18,10 +18,9 @@ It is my first project ever.
   - Starters
   - Pasta
   - Pizza
-  - Main Courses
   - Desserts
 - About Us page
-- Contact page
+- Contact page with reservations and contact details provided
 - Menu page
 - Restaurant opening hours
 - Favicon
