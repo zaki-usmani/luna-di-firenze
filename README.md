@@ -1,10 +1,10 @@
 # Luna di Firenze 🇮🇹
 
-A fictional Italian restaurant website built to practise HTML and develop my web development skills.
+A fictional Italian cafe website built to practise HTML and develop my web development skills.
 
 ## 📌 About the Project
 
-Luna di Firenze is a fictional modern Italian restaurant website inspired by the traditional flavours and elegance of Florence, Italy.
+Luna di Firenze is a fictional modern cafe restaurant website inspired by the traditional flavours and elegance of Florence, Italy.
 
 The website showcases a restaurant homepage, menu, story, and contact information using clean and basic structured HTML.
 
@@ -27,7 +27,8 @@ It is my first project ever.
 
 ## 🛠️ Built With
 
-- HTML5 on VSCode
+- HTML
+- CSS
 
 ## 🚀 Future Improvements
 
