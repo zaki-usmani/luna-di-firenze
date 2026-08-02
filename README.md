@@ -1,47 +1,48 @@
 # Luna di Firenze 🇮🇹
 
-A fictional Italian cafe website built to practise HTML and develop my web development skills.
+A fictional Italian café website built to practise HTML and CSS while developing my web development skills.
 
 ## 📌 About the Project
 
-Luna di Firenze is a fictional modern cafe restaurant website inspired by the traditional flavours and elegance of Florence, Italy.
+Luna di Firenze is a fictional Italian café inspired by the charm, flavours, and café culture of Florence, Italy.
 
-The website showcases a restaurant homepage, menu, story, and contact information using clean and basic structured HTML.
+The website is a multi-page project featuring a welcoming homepage, menu, about page, and contact page. It focuses on clean design, semantic HTML, and modern CSS while recreating the feel of an elegant Italian café.
 
-It is my first project ever.
+This is my first web development project.
 
 ## ✨ Features
 
-- Homepage introducing the restaurant
-- Navigation between different pages
-- Italian food menu with categories designed with CSS:
-  - Starters
-  - Pasta
-  - Pizza
-  - Desserts
+- Multi-page website
+- Homepage with a hero banner and call-to-action
+- Navigation bar
+- Café menu page
 - About Us page
-- Contact page with reservations and contact details provided
-- Menu page
-- Restaurant opening hours
-- Favicon
+- Contact page
+- Opening hours
+- Custom favicon
+- Modern styling with CSS
+- Consistent Italian-inspired colour palette
+- Clean and semantic HTML structure
 
 ## 🛠️ Built With
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ## 🚀 Future Improvements
 
-- Add CSS styling and responsive design
+- Improve responsiveness for mobile devices
 - Add JavaScript interactivity
-- Add online reservation functionality
-- Add animations and improved user experience
-- Connect a backend for real restaurant features
+- Add animations and page transitions
+- Implement an online reservation/contact form
+- Add image galleries for food and drinks
+- Improve accessibility
+- Connect a backend for real café functionality
 
 ## 🎯 Purpose
 
-This project was created as part of my journey learning web development and building a portfolio of programming projects.
+This project is part of my journey learning front-end web development and building a portfolio of programming projects. It has helped me practise semantic HTML, CSS layout techniques, website structure, and creating visually appealing user interfaces.
 
 ---
 
-**Buon appetito! 🍝**
+**Benvenuti a Luna di Firenze! ☕🥐**
