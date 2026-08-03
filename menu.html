@@ -8,62 +8,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <h1>Luna di Firenze</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about-us.html">About Us</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-    </header>
-    <main class="menu">
-        <section>
-            <h1>Our Menu</h1>
-            <article>
-                <h2>Beverages</h2>
-                <p><b>Espresso — €3.00</b></p>
-                <p>Rich and aromatic Italian espresso.</p>
-                <p><b>Cappuccino — €4.00</b></p>
-                <p>Classic Italian coffee with steamed milk and foam.</p>
-                <p><b>Latte — €4.50</b></p>
-                <p>Smooth and creamy Italian coffee with steamed milk.</p>
-                <p><b>Italian Wines — Starting at €25.00</b></p>
-                <p>A curated selection of fine Italian wines to complement your meal.</p>
-            </article>
-            <article>
-                <h2>Pasta</h2>
-                <p><b>Tagliatelle al Tartufo — €19.00</b></p>
-                <p>Fresh handmade pasta with a creamy truffle sauce, mushrooms, and Parmigiano Reggiano.</p>
-                <p><b>Spaghetti Carbonara — €16.00</b></p>
-                <p>Classic Roman pasta dish with eggs, Pecorino Romano cheese, pancetta, and black pepper.</p>
-                <p><b>Lasagna alla Bolognese — €18.00</b></p>
-                <p>Layers of pasta, rich Bolognese sauce, béchamel, and Parmigiano Reggiano cheese.</p>
-                <p><b>Ravioli Ricotta e Spinaci — €18.00</b></p>
-                <p>Homemade ravioli stuffed with ricotta cheese and spinach, served with a sage butter sauce.</p>
+    <section class="container">
 
-            </article>
-            <article>
-                <h2>Pizza</h2>
-                <p><b>Margherita Classica - €12.00</b></p>
-                <p>Traditional pizza with tomato sauce, fresh mozzarella, and basil.</p>
-                <p><b>Quattro Formaggi - €14.00</b></p>
-                <p>A blend of four cheeses: mozzarella, gorgonzola, fontina, and Parmigiano Reggiano.</p>
-                <p><b>Prosciutto e Rucola - €15.00</b></p>
-                <p>Thinly sliced prosciutto, fresh arugula, and shaved Parmigiano Reggiano on a tomato base.</p>
-            </article>
-            <article>
-                <h2>Desserts</h2>
-                <p><b>Tiramisu — €8.00</b></p>
-                <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.</p>
-                <p><b>Gelato Italiano — €6.00</b></p>
-                <p>Artisanal handmade gelato available in various flavors.</p>
-                <br>
-            </article>   
-        </section>
-    </main>
-    <footer>
-        <br>
-        <p class="copyright">&copy; 2026 Luna di Firenze. All rights reserved.<br>(fake)</p>
-    </footer>
+        <!-- ===== Header: logo + nav links ===== -->
+        <header class="header">
+            <a href="index.html" class="logo">
+                <h1>luna di firenze.</h1>
+            </a>
+            <nav>
+                <a href="menu.html">menu</a>
+                <a href="about-us.html">about us</a>
+                <a href="contact.html">contact us</a>
+            </nav>
+        </header>
+
+        <!-- ===== Main menu content ===== -->
+        <main class="menu">
+            <section>
+                <h2 class="menu-title">Our Menu</h2>
+
+                <!-- Beverages category -->
+                <section id="Beverages" class="menu-category">
+                    <h2 class="category-title">Beverages</h2>
+                    <div class="items-row">
+                        <div class="item">
+                            <img src="images/menu items/espresso.jpg" alt="Espresso" class="menu-image">
+                            <p><b>Espresso — €3.00</b></p>
+                            <p>Rich and aromatic Italian espresso.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/cappuccino.jpg" alt="Cappuccino" class="menu-image">
+                            <p><b>Cappuccino — €4.00</b></p>
+                            <p>Classic Italian coffee with steamed milk and foam.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/latte.jpg" alt="Latte" class="menu-image">
+                            <p><b>Latte — €4.50</b></p>
+                            <p>Smooth and creamy Italian coffee with steamed milk.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/wines.jpg" alt="Italian Wines" class="menu-image">
+                            <p><b>Italian Wines — Starting at €25.00</b></p>
+                            <p>A curated selection of fine Italian wines to complement your meal.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Pasta category -->
+                <section id="Pasta" class="menu-category">
+                    <h2 class="category-title">Pasta</h2>
+                    <div class="items-row">
+                        <div class="item">
+                            <img src="images/menu items/tagliatelle.jpg" alt="Tagliatelle al Tartufo" class="menu-image">
+                            <p><b>Tagliatelle al Tartufo — €19.00</b></p>
+                            <p>Fresh handmade pasta with a creamy truffle sauce, mushrooms, and Parmigiano Reggiano.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/carbonara.jpg" alt="Spaghetti Carbonara" class="menu-image">
+                            <p><b>Spaghetti Carbonara — €16.00</b></p>
+                            <p>Classic Roman pasta dish with eggs, Pecorino Romano cheese, pancetta, and black pepper.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/lasagna.jpg" alt="Lasagna alla Bolognese" class="menu-image">
+                            <p><b>Lasagna alla Bolognese — €18.00</b></p>
+                            <p>Layers of pasta, rich Bolognese sauce, béchamel, and Parmigiano Reggiano cheese.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/ravioli.jpg" alt="Ravioli Ricotta e Spinaci" class="menu-image">
+                            <p><b>Ravioli Ricotta e Spinaci — €18.00</b></p>
+                            <p>Homemade ravioli stuffed with ricotta cheese and spinach, served with a sage butter sauce.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Pizza category -->
+                <section id="Pizza" class="menu-category">
+                    <h2 class="category-title">Pizza</h2>
+                    <div class="items-row">
+                        <div class="item">
+                            <img src="images/menu items/margherita.jpg" alt="Margherita Napoletana" class="menu-image">
+                            <p><b>Margherita Napoletana - €12.00</b></p>
+                            <p>Traditionally crafted pizza with tomato sauce, fresh mozzarella, and basil.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/formaggi.jpg" alt="Quattro Formaggi" class="menu-image">
+                            <p><b>Quattro Formaggi - €14.00</b></p>
+                            <p>A blend of four cheeses: mozzarella, gorgonzola, fontina, and Parmigiano Reggiano.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/rucola.jpg" alt="Prosciutto e Rucola" class="menu-image">
+                            <p><b>Prosciutto e Rucola - €15.00</b></p>
+                            <p>Thinly sliced prosciutto, fresh arugula, and shaved Parmigiano Reggiano on a tomato base.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Desserts category -->
+                <section id="Desserts" class="menu-category">
+                    <h2 class="category-title">Desserts</h2>
+                    <div class="items-row">
+                        <div class="item">
+                            <img src="images/menu items/tiramisu.jpg" alt="Tiramisu" class="menu-image">
+                            <p><b>Tiramisu — €8.00</b></p>
+                            <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/menu items/gelato.jpg" alt="Gelato Italiano" class="menu-image">
+                            <p><b>Gelato Italiano — €6.00</b></p>
+                            <p>Artisanal handmade gelato available in various flavors.</p>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+        </main>
+
+        <!-- ===== Footer ===== -->
+        <footer>
+            <br>
+            <p class="copyright">&copy; 2024 Luna di Firenze. All rights reserved.<br>(fake)</p>
+        </footer>
+
+    </section>
 </body>
 </html>

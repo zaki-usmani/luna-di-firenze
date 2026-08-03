@@ -1,56 +1,153 @@
-body{
-    text-align: center;
+/* =========================================================
+   FONTS
+   ========================================================= */
+@font-face {
+  font-family: 'TBJ';
+  src: url('TBJNeuetraSans.woff') format('woff');
+}
+
+
+/* =========================================================
+   BASE / GLOBAL STYLES
+   ========================================================= */
+body {
     font-family: sans-serif;
-    color: #222;
-    background-image: url("images/florenceskyline.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
 }
 
-.menu{
-    background: rgba(255, 255, 255, 0.88);
-    width: 90%;
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 30px;
-    border-radius: 25px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.65);
-}
-
-.menu h1,
-.menu h2,
-.menu p {
-    margin: 0 0 20px;
-}
-
-
-.copyright {
-    font-size: 0.95em;
-    color: #222;
-    max-width: 300px;
-    margin: 20px auto 0;
-    padding: 10px 15px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-a {
-    color: #2a3d66;
+a:link {
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.9);
-    margin: 0 10px;
-    border-radius: 5px;
-    padding: 5px;
 }
 
-a:hover{
-    background-color: rgba(255, 255, 255, 0.7);
+
+/* =========================================================
+   PAGE CONTAINER
+   Wraps the whole page and gives it the bordered card look
+   ========================================================= */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #F8F6F2;
+    color: #2B2B2B;
+    border-right: 2px solid #D9D2C5;
+    border-left: 2px solid #D9D2C5;
+    border-bottom: 2px solid #D9D2C5;
+}
+
+
+/* =========================================================
+   HEADER + NAVIGATION
+   ========================================================= */
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    font-family: 'TBJ', sans-serif;
+    color: #647134;
+}
+
+.header nav {
+    position: absolute;
+    right: 20px;
+}
+
+.header nav a {
+    margin-left: 15px;
+}
+
+.header nav a:hover {
     text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #768C2A;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-family: 'TBJ', sans-serif;
+}
+
+
+/* =========================================================
+   "OUR MENU" PAGE TITLE
+   ========================================================= */
+.menu-title {
+    font-family: 'TBJ', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #768C2A;
+    margin-bottom: 10px; /* keeps title close to the first category below it */
+}
+
+
+/* =========================================================
+   MENU CATEGORY SECTIONS (Beverages, Pasta, Pizza, Desserts)
+   ========================================================= */
+.menu-category {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D9D2C5;
+}
+
+/* Removes the extra gap above the first category so it sits closer to "Our Menu" */
+.menu-category:first-of-type {
+    padding-top: 10px;
+}
+
+/* Last category doesn't need a divider line underneath it */
+.menu-category:last-child {
+    border-bottom: none;
+}
+
+/* Category name sits on its own line above the row of items */
+.category-title {
+    font-family: 'TBJ', sans-serif;
+    color: #768C2A;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================================
+   MENU ITEMS
+   Row of items that wraps onto new lines as needed
+   ========================================================= */
+.items-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 50px;
+}
+
+.item {
+    flex: 1 1 240px;
+    max-width: 280px;
+    min-width: 220px;
+}
+
+.item p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+footer {
+    text-align: center;
+    border-top: 2px solid black;
 }
